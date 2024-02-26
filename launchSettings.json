@@ -1,0 +1,16 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "commandVersion": "1.0",
+      "serviceActions": {
+        "apigateway": "StartDebugging",
+        "authenticationwebapi": "StartDebugging",
+        "blazorserverwebui": "StartDebugging",
+        "customerwebapi": "StartDebugging",
+        "orderwebapi": "StartDebugging",
+        "productwebapi": "StartDebugging"
+      }
+    }
+  }
+}
